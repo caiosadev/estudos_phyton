@@ -52,3 +52,4 @@ print("9: ", motos)
 #organizando em ordem alfabética permanentemente
 motos.sort()
 print("10: ", motos)
+#print(sorted(motos)) - exibe temporariamente a lista em ordem alfabética, sem mudar permanentemente
