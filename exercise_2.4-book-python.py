@@ -13,4 +13,4 @@ c = float(input("Insira o valor de C: "))
 #calculo = (1 * a) * (2 * b) * (3 * c)
 calculo = a + b + c
 
-print("%-5.2f" % calculo)
+print("{:.2f}" .format(calculo))

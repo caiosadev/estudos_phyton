@@ -8,7 +8,7 @@ while True:
         apagar -= atual
         cedulas += 1
         
-        print("%d cédula(s) ou moeda(s) de R$ %.2f" % (cedulas, atual))
+        print("{} cédula(s) ou moeda(s) de R$ {:.2f}" .format(cedulas, atual))
     else:
         if apagar == 0:
             print("Você saiu do programa.")

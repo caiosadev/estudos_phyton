@@ -40,6 +40,6 @@ else:
             divida -= valor_mensal
             total_pago += valor_mensal
 
-print("Número de meses: %d" % mes)
-print("Total pago: R$ %.2f" % total_pago)
-print("Total de juros pagos: R$ %.2f" % total_juros)
+print("Número de meses: {}" .format(mes))
+print("Total pago: R$ {:.2f}" .format(total_pago))
+print("Total de juros pagos: R$ {:.2f}" .format(total_juros))

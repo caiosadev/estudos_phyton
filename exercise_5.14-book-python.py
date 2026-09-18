@@ -11,9 +11,9 @@ while True:
 if qnt_numeros > 0:
     media = soma / qnt_numeros
 
-    print("Quantidade de números digitados: %d" % qnt_numeros)
-    print("Soma: %d" % soma)
-    print("Média aritmética: %.2f" % media)
+    print("Quantidade de números digitados: {}" .format(qnt_numeros))
+    print("Soma: {}" .format(soma))
+    print("Média aritmética: {:.2f}" .format(media))
 
 else:
     print("Nenhum número foi digitado.")

@@ -7,7 +7,7 @@ else:
         preco = 0.18
     else:
         preco = 0.15
-print("O seu plano é de R$ %.2f" % (minutos * preco))
+print("O seu plano é de R$ {:.2f}" .format(minutos * preco))
 
 
 
@@ -22,4 +22,4 @@ elif minutos < 400:
 else:
     plano = minutos * 0.15
 
-print("O valor do seu plano é de R$ %.2f" % plano)
+print("O valor do seu plano é de R$ {:.2f}" .format(plano))

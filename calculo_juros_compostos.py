@@ -4,4 +4,4 @@ n = int(input("Qual o prazo para pagamento (em meses)? "))
 
 fv = pv * pow((1 + i / 100), n)
 
-print("O valor futuro (FV) é: R$ %-6.2f" % fv)
+print("O valor futuro (FV) é: R$ {:.2f}" .format(fv))

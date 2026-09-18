@@ -8,7 +8,7 @@ conversao_horas = horas * 3600
 conversao_minutos = minutos * 60
 conversao_final = conversao_dias + conversao_horas + conversao_minutos + segundos
 
-print("A conversão resultou em %d segundos." % conversao_final)
+print("A conversão resultou em {} segundos." .format(conversao_final))
 
 
 
@@ -21,4 +21,4 @@ conversao_minutos = minutos * 60
 conversao_final = conversao_dias + conversao_horas + conversao_minutos + segundos
 
 print("Você escreveu:", dias, "dias,", horas, "horas,", minutos, "minutos e", segundos, "segundos")
-print("A conversão resultou em %d segundos." % conversao_final)
+print("A conversão resultou em {} segundos." .format(conversao_final))

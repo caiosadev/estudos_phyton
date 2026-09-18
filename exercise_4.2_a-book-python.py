@@ -13,6 +13,6 @@ if base > 1000:
     imposto = imposto + ((base - 1000) * (20 / 100))
     base = 1000
 
-print("Salário de: R$%.2f, imposto à pagar: R$%.2f" % (salario, imposto))
+print("Salário de: R${:.2f}, imposto à pagar: R${:.2f}" .format(salario, imposto))
 
 #dúvidas, sem entendimento completo no formato do cálculo em si.

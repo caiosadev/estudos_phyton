@@ -21,10 +21,10 @@ hospede = idade
 if idade < 0 or idade >= 116:
     input("Idade inválida, tente novamente.")
 elif idade <= 13:
-    input("Seu hóspede têm %d anos e é uma criança." % hospede)
+    input("Seu hóspede têm {} anos e é uma criança." .format(hospede))
 elif idade <= 17:
-    input("Seu hóspede têm %d anos e é um adolecente." % hospede)
+    input("Seu hóspede têm {} anos e é um adolecente." .format(hospede))
 elif idade <= 59:
-    input("Seu hóspede têm %d anos e é um adulto." % hospede)
+    input("Seu hóspede têm {} anos e é um adulto." .format(hospede))
 else:
-    input("Seu hóspede têm %d anos e é um idoso." % hospede)
+    input("Seu hóspede têm {} anos e é um idoso." .format(hospede))

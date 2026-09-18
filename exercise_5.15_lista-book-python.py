@@ -30,4 +30,4 @@ while True:
         total_compras += total #somando o total da compra ao total geral.
 
 
-print("Total das compras: R$ %.2f" % total_compras)
+print("Total das compras: R$ {:.2f}" .format(total_compras))

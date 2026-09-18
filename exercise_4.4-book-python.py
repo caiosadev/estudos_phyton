@@ -7,5 +7,5 @@ if base_salario > 1250:
 else:
     base_salario = base_salario * (15 /100)
 
-print("Para o salário de R$ %.2f" % salario)
-print("O aumento é de: R$ %.2f" % base_salario)
+print("Para o salário de R$ {:.2f}" .format(salario))
+print("O aumento é de: R$ {:.2f}" .format(base_salario))

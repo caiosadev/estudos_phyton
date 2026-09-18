@@ -2,7 +2,7 @@ pontos = 0
 questao = 1
 
 while questao <= 3:
-    resposta = input("Questão %d: " % questao)
+    resposta = input("Questão {}: " .format(questao))
     if questao == 1 and resposta == "b" or resposta == "B":
         pontos += 1
     if questao == 2 and resposta == "a" or resposta == "A":
@@ -11,4 +11,4 @@ while questao <= 3:
         pontos += 1
         
     questao += 1
-print("Total de ponto(s): %d" % pontos)
+print("Total de ponto(s): {}" .format(pontos))

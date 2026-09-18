@@ -9,15 +9,15 @@ preco04 = 26
 preco05 = 31
 
 if categoria == 1:
-    print("O preço do produto é R$ %.2f" % preco01)
+    print("O preço do produto é R$ {:.2f}" .format(preco01))
 elif categoria == 2:
-    print("O preço do produto é R$ %.2f" % preco02)
+    print("O preço do produto é R$ {:.2f}" .format(preco02))
 elif categoria == 3:
-    print("O preço do produto é R$ %.2f" % preco03)
+    print("O preço do produto é R$ {:.2f}" .format(preco03))
 elif categoria == 4:
-    print("O preço do produto é R$ %.2f" % preco04)
+    print("O preço do produto é R$ {:.2f}" .format(preco04))
 elif categoria == 5:
-    print("O preço do produto é R$ %.2f" % preco05)
+    print("O preço do produto é R$ {:.2f}" .format(preco05))
 else:
     print("Categoria não cadastrada, tente novamente.")
 
@@ -42,4 +42,4 @@ elif categoria == 5:
     preco = 31
 else:
     print("Categoria não cadastrada, tente novamente.")
-print("O preço do produto é R$ %.2f" % preco)
+print("O preço do produto é R$ {:.2f}" .format(preco))

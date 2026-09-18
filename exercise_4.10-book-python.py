@@ -16,4 +16,4 @@ elif instalacao == "C" and consumo_kwh > 1000:
     preco = consumo_kwh * 0.60
 else:
     print("Erro, tente novamente")
-print("O preço a pagar é: R$ %.2f" % preco)
+print("O preço a pagar é: R$ {:.2f}" .format(preco))

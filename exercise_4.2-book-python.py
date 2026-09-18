@@ -6,6 +6,6 @@ velocidade = int(input("Qual a velocidade do carro? "))
 calc_multa = (velocidade - 80) * 5
 
 if velocidade > 80:
-    print("Você foi multado em R$ %-5.2f!" % calc_multa)
+    print("Você foi multado em R$ {:.2f}!" .format(calc_multa))
 if velocidade < 80:
         print("Você não foi multado, parabéns!")
